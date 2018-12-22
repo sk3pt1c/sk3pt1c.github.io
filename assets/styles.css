@@ -238,7 +238,7 @@ body > header {
         height: 34px;
         position: absolute;
         top: 0;
-        background: url(buttons-light.svg) no-repeat;
+        background: url(../images/logo.jpg) no-repeat;
         background-size: 170px 34px; }
 
     body > header .logo:active:after, body > header .toggle:active:after { top: 1px }
