@@ -4,6 +4,7 @@ layout:			default
 title:  		Adding posts and pages
 type:			post
 navigation: 	false
+comments:       true
 
 date:   		2014-05-08
 excerpt: 		<i>Posts and pages are slightly different in Jekyll</i>, but adding them to your new website should be easy nevertheless. Especially writing contents in <b>Markdown</b> or <b>Textile</b> is a breeze compared to most clunky wysiwyg editors these days.
