@@ -6,7 +6,7 @@
 	
 	>
 <channel>
-	<title>Comments for Free Flow</title>
+	<title>Comments for </title>
 	<atom:link href="http://localhost/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>

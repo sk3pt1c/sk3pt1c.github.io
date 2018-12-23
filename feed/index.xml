@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>Free Flow</title>
+	<title></title>
 	<atom:link href="http://localhost/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
@@ -17,6 +17,14 @@
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.0.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2018/12/cropped-icon-32x32.png</url>
+	<title></title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>/2018/12/23/hello-world/</link>

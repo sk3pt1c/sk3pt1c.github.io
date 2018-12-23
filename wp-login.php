@@ -7,7 +7,7 @@
 	<!--<![endif]-->
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Log In &lsaquo; Free Flow &#8212; WordPress</title>
+	<title>Log In &lsaquo;  &#8212; WordPress</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
 <link rel='stylesheet' id='dashicons-css'  href='/wp-includes/css/dashicons.min.css?ver=5.0.2' type='text/css' media='all' />
 <link rel='stylesheet' id='buttons-css'  href='/wp-includes/css/buttons.min.css?ver=5.0.2' type='text/css' media='all' />
@@ -17,7 +17,11 @@
 	<meta name='robots' content='noindex,noarchive' />
 	<meta name='referrer' content='strict-origin-when-cross-origin' />
 		<meta name="viewport" content="width=device-width" />
-		</head>
+	<link rel="icon" href="/wp-content/uploads/2018/12/cropped-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2018/12/cropped-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2018/12/cropped-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2018/12/cropped-icon-270x270.png" />
+	</head>
 	<body class="login login-action-login wp-core-ui  locale-en-us">
 		<div id="login">
 		<h1><a href="https://wordpress.org/" title="Powered by WordPress" tabindex="-1">Powered by WordPress</a></h1>
@@ -57,7 +61,7 @@ wp_attempt_focus();
 if(typeof wpOnload=='function')wpOnload();
 </script>
 
-	<p id="backtoblog"><a href="/">&larr; Back to Free Flow</a></p>
+	<p id="backtoblog"><a href="/">&larr; Back to </a></p>
 		
 	</div>
 
