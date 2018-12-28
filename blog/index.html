@@ -7,7 +7,6 @@
 <link rel="pingback" href="/xmlrpc.php">
 
 <title>Blog</title>
-<link rel='dns-prefetch' href='//www.google.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="/feed/" />
@@ -134,43 +133,9 @@ var wpcf7 = {"apiSettings":{"root":"\/wp-json\/contact-form-7\/v1","namespace":"
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
-<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LcRcIUUAAAAAKaiDTJ1bbHzOaSCTeTb2ynP-cRH&#038;ver=3.0'></script>
 <script type='text/javascript' src='/wp-content/themes/relativity/js/navigation.js?ver=20120206'></script>
 <script type='text/javascript' src='/wp-content/themes/relativity/js/skip-link-focus-fix.js?ver=20130115'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=5.0.2'></script>
-<script type="text/javascript">
-( function( grecaptcha, sitekey ) {
-
-	var wpcf7recaptcha = {
-		execute: function() {
-			grecaptcha.execute(
-				sitekey,
-				{ action: 'homepage' }
-			).then( function( token ) {
-				var forms = document.getElementsByTagName( 'form' );
-
-				for ( var i = 0; i < forms.length; i++ ) {
-					var fields = forms[ i ].getElementsByTagName( 'input' );
-
-					for ( var j = 0; j < fields.length; j++ ) {
-						var field = fields[ j ];
-
-						if ( 'g-recaptcha-response' === field.getAttribute( 'name' ) ) {
-							field.setAttribute( 'value', token );
-							break;
-						}
-					}
-				}
-			} );
-		}
-	};
-
-	grecaptcha.ready( wpcf7recaptcha.execute );
-
-	document.addEventListener( 'wpcf7submit', wpcf7recaptcha.execute, false );
-
-} )( grecaptcha, '6LcRcIUUAAAAAKaiDTJ1bbHzOaSCTeTb2ynP-cRH' );
-</script>
 
 </body>
 </html>
