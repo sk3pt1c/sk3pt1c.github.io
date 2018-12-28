@@ -7,7 +7,6 @@
 <link rel="pingback" href="/xmlrpc.php">
 
 <title>Hello world!</title>
-<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="/feed/" />
@@ -32,12 +31,8 @@ img.emoji {
 }
 </style>
 <link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.0.2' type='text/css' media='all' />
-<link rel='stylesheet' id='cff-css'  href='/wp-content/plugins/custom-facebook-feed/css/cff-style.css?ver=2.8' type='text/css' media='all' />
-<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.0.2' type='text/css' media='all' />
 <link rel='stylesheet' id='relativity-style-css'  href='/wp-content/themes/relativity/style.css?ver=5.0.2' type='text/css' media='all' />
 <link rel='stylesheet' id='relativity-googlefonts-css'  href='//fonts.googleapis.com/css?family=Vollkorn%3A400%7COpen+Sans%3A300%2C400%2C700&#038;ver=5.0.2' type='text/css' media='all' />
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
@@ -133,12 +128,22 @@ content:url("/wp-content/uploads/2018/12/logo.png");
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<!-- Custom Facebook Feed JS -->
-<script type="text/javascript">
-var cfflinkhashtags = "true";
-</script>
-<script type='text/javascript' src='/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?ver=2.8'></script>
-<script type='text/javascript' src='/wp-content/themes/relativity/js/navigation.js?ver=20120206'></script>
+<div id='fb-root'></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div class='fb-customerchat'
+    attribution="wordpress"
+    page_id='1346700762014340'
+    theme_color='#4167B2'
+    logged_in_greeting='Hi friendo, How can I help you?'
+    logged_out_greeting='Hi friendo, How can I help you?'
+  >
+</div><script type='text/javascript' src='/wp-content/themes/relativity/js/navigation.js?ver=20120206'></script>
 <script type='text/javascript' src='/wp-content/themes/relativity/js/skip-link-focus-fix.js?ver=20130115'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=5.0.2'></script>
 
