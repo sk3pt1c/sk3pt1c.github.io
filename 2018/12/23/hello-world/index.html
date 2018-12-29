@@ -31,8 +31,11 @@ img.emoji {
 }
 </style>
 <link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='scroll-top-css-css'  href='/wp-content/plugins/scroll-top/assets/css/scroll-top.css' type='text/css' media='all' />
 <link rel='stylesheet' id='relativity-style-css'  href='/wp-content/themes/relativity/style.css?ver=5.0.2' type='text/css' media='all' />
 <link rel='stylesheet' id='relativity-googlefonts-css'  href='//fonts.googleapis.com/css?family=Vollkorn%3A400%7COpen+Sans%3A300%2C400%2C700&#038;ver=5.0.2' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
@@ -41,6 +44,15 @@ img.emoji {
 <link rel='shortlink' href='/?p=1' />
 <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2F2018%2F12%2F23%2Fhello-world%2F" />
 <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2F2018%2F12%2F23%2Fhello-world%2F&#038;format=xml" />
+<!-- Scroll Top -->
+<style id="scrolltop-custom-style">
+		#scrollUp {border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;font-size:25px;opacity:0.8;filter:alpha(opacity=80);bottom:20px;right:20px;color:#4067b2;background:#ffffff;}
+		#scrollUp:hover{opacity:1;filter:alpha(opacity=100);}
+		#scrollUp {
+padding: 5px 10px;
+}
+		</style>
+<!-- End Scroll Top - https://wordpress.org/plugins/scroll-top/ -->
 <link rel="icon" href="/wp-content/uploads/2018/12/cropped-icon-5-32x32.png" sizes="32x32" />
 <link rel="icon" href="/wp-content/uploads/2018/12/cropped-icon-5-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2018/12/cropped-icon-5-180x180.png" />
@@ -54,6 +66,12 @@ img.emoji {
 }
 .custom-logo {
 content:url("/wp-content/uploads/2018/12/logo.png");
+}
+.blue .main-navigation, .blue .main-navigation ul ul, .blue .footer-widgets {
+background: #4067B2;
+}
+.blue .site-header, .blue .main-navigation li:hover > a, .blue .site-footer, .blue.blog .format-quote, .blue.archive .format-quote, .blue .main-navigation li.current_page_item a, .blue .main-navigation li.current-menu-item a, .blue .nav-links a, .blue .page-links a {
+background: #4067B2;
 }		</style>
 	</head>
 
@@ -77,6 +95,7 @@ content:url("/wp-content/uploads/2018/12/logo.png");
 			<div class="primary-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-61"><a href="/">Home</a></li>
 <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="/about/">About</a></li>
 <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="/services/">Services</a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/partners/">Partners</a></li>
 <li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-63"><a href="/blog/">Blog</a></li>
 <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="/contact/">Contact</a></li>
 </ul></div>		</nav><!-- #site-navigation -->
@@ -128,9 +147,21 @@ content:url("/wp-content/uploads/2018/12/logo.png");
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<script type='text/javascript' src='/wp-content/plugins/scroll-top/assets/js/jquery.scrollUp.min.js'></script>
 <script type='text/javascript' src='/wp-content/themes/relativity/js/navigation.js?ver=20120206'></script>
 <script type='text/javascript' src='/wp-content/themes/relativity/js/skip-link-focus-fix.js?ver=20130115'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=5.0.2'></script>
+
+		<script id="scrolltop-custom-js">
+		jQuery(document).ready(function($){
+			$.scrollUp({
+				scrollSpeed: 300,
+				animation: 'fade',
+				scrollText: '<span class="scroll-top"><i class="icon-up-open"></i></span>',
+				scrollDistance: 300
+			});
+		});
+		</script>
 
 </body>
 </html>
