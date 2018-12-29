@@ -6,11 +6,11 @@
 	
 	>
 <channel>
-	<title>Comments for </title>
-	<atom:link href="http://localhost/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<title>Comments on: The importance of routine (and breaking it)</title>
+	<atom:link href="http://localhost/2018/12/29/the-importance-of-routine-and-breaking-it/feed/" rel="self" type="application/rss+xml" />
+	<link>/2018/12/29/the-importance-of-routine-and-breaking-it/</link>
 	<description></description>
-	<lastBuildDate>Sat, 29 Dec 2018 17:20:01 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 29 Dec 2018 17:20:03 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.0.2</generator>
