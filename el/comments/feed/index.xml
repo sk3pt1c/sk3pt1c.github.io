@@ -6,13 +6,13 @@
 	
 	>
 <channel>
-	<title>Comments on: Home</title>
-	<atom:link href="http://localhost/home/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<title>Σχόλια για </title>
+	<atom:link href="http://localhost/el/comments/feed/" rel="self" type="application/rss+xml" />
+	<link href="">/el/</link>
 	<description></description>
-	<lastBuildDate>Mon, 07 Jan 2019 20:48:25 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
+	<lastbuilddate>Mon, 07 Jan 2019 20:48:30 +0000</lastbuilddate>
+	<sy:updateperiod>hourly</sy:updateperiod>
+	<sy:updatefrequency>1</sy:updatefrequency>
 	<generator>https://wordpress.org/?v=5.0.2</generator>
 </channel>
 </rss>

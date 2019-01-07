@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 29 Dec 2018 17:16:26 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 07 Jan 2019 19:51:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -29,7 +29,7 @@
 		<title>The importance of routine (and breaking it)</title>
 		<link>/2018/12/29/the-importance-of-routine-and-breaking-it/</link>
 		<pubDate>Sat, 29 Dec 2018 16:47:06 +0000</pubDate>
-		<dc:creator><![CDATA[sparky]]></dc:creator>
+		<dc:creator><![CDATA[Ioannis Aliazis]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
 		<guid isPermaLink="false">/?p=170</guid>

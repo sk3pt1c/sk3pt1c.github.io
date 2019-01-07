@@ -9,30 +9,30 @@
 
 <channel>
 	<title>Ioannis Aliazis</title>
-	<atom:link href="http://localhost/author/sparky/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://localhost/el/author/sparky/feed/" rel="self" type="application/rss+xml" />
+	<link href="">/el/</link>
 	<description></description>
-	<lastBuildDate>Mon, 07 Jan 2019 19:51:25 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
+	<lastbuilddate>Mon, 07 Jan 2019 19:51:25 +0000</lastbuilddate>
+	<language>el</language>
+	<sy:updateperiod>hourly</sy:updateperiod>
+	<sy:updatefrequency>1</sy:updatefrequency>
 	<generator>https://wordpress.org/?v=5.0.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2018/12/cropped-icon-5-32x32.png</url>
 	<title>Ioannis Aliazis</title>
-	<link>/</link>
+	<link href="">/el/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>The importance of routine (and breaking it)</title>
-		<link>/2018/12/29/the-importance-of-routine-and-breaking-it/</link>
-		<pubDate>Sat, 29 Dec 2018 16:47:06 +0000</pubDate>
+		<link href="">/el/2018/12/29/the-importance-of-routine-and-breaking-it/</link>
+		<pubdate>Sat, 29 Dec 2018 16:47:06 +0000</pubdate>
 		<dc:creator><![CDATA[Ioannis Aliazis]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/?p=170</guid>
+		<guid ispermalink="false">/?p=170</guid>
 		<description><![CDATA[Albert Einstein is broadly credited with exclaiming “The definition of insanity is doing the same thing over and over again, but expecting different results”.  In somewhat of a similar vein, a routine is something that has come to scare us, doing the same thing over and over again is something that strikes us as monotonous and machine-like. But&#8230; [&#8230;]]]></description>
 				<content:encoded><![CDATA[
 <p>Albert Einstein is broadly credited with exclaiming “The definition of insanity is doing the same thing over and over again, but expecting different results”. </p>
