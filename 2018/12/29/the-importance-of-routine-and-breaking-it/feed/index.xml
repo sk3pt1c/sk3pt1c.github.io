@@ -6,13 +6,17 @@
 	
 	>
 <channel>
-	<title>Comments on: The importance of routine (and breaking it)</title>
+	<title>
+	Comments on: The importance of routine (and breaking it)	</title>
 	<atom:link href="http://localhost/2018/12/29/the-importance-of-routine-and-breaking-it/feed/" rel="self" type="application/rss+xml" />
 	<link>/2018/12/29/the-importance-of-routine-and-breaking-it/</link>
 	<description></description>
-	<lastBuildDate>Mon, 07 Jan 2019 20:48:31 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0.2</generator>
+	<lastBuildDate>
+	Sun, 24 Feb 2019 08:02:36 +0000	</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1</generator>
 </channel>
 </rss>
