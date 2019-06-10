@@ -11,12 +11,11 @@
 	<atom:link href="http://localhost/el/2018/12/29/the-importance-of-routine-and-breaking-it/feed/" rel="self" type="application/rss+xml" />
 	<link href="">/el/2018/12/29/the-importance-of-routine-and-breaking-it/</link>
 	<description></description>
-	<lastbuilddate>
-	Sun, 24 Feb 2019 08:02:37 +0000	</lastbuilddate>
+	<lastbuilddate>Sat, 29 Dec 2018 17:16:26 +0000</lastbuilddate>
 	<sy:updateperiod>
 	hourly	</sy:updateperiod>
 	<sy:updatefrequency>
 	1	</sy:updatefrequency>
-	<generator>https://wordpress.org/?v=5.1</generator>
+	<generator>https://wordpress.org/?v=5.2.1</generator>
 </channel>
 </rss>
