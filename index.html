@@ -66,14 +66,17 @@ padding: 5px 10px;
 .site-info.container {
 	display:none;
 }
-.custom-logo {
+/*.custom-logo {
 content:url("/wp-content/uploads/2018/12/logo.png");
-}
+}*/
 .blue .main-navigation, .blue .main-navigation ul ul, .blue .footer-widgets {
+background: #000;
+}
+.blue .site-header, .blue .main-navigation li:hover > a, .blue.blog .format-quote, .blue.archive .format-quote, .blue .main-navigation li.current_page_item a, .blue .main-navigation li.current-menu-item a, .blue .nav-links a, .blue .page-links a {
 background: #4067B2;
 }
-.blue .site-header, .blue .main-navigation li:hover > a, .blue .site-footer, .blue.blog .format-quote, .blue.archive .format-quote, .blue .main-navigation li.current_page_item a, .blue .main-navigation li.current-menu-item a, .blue .nav-links a, .blue .page-links a {
-background: #4067B2;
+.blue .site-footer {
+	background:black;
 }
 a {
 	text-decoration: underline;
@@ -104,7 +107,7 @@ left: 80%;
 }		</style>
 		</head>
 
-<body class="home page-template-default page page-id-2 wp-custom-logo translatepress-en_US blue">
+<body class="home page-template-default page page-id-2 wp-custom-logo wp-embed-responsive translatepress-en_US blue">
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -112,7 +115,7 @@ left: 80%;
 			<div class="site-branding">
 			<div class="container">
 
-				<a href="/" class="custom-logo-link" rel="home"><img width="167" height="150" src="/wp-content/uploads/2019/06/cropped-black.png" class="custom-logo" alt="" /></a>
+				<a href="/" class="custom-logo-link" rel="home"><img width="167" height="150" src="/wp-content/uploads/2019/06/cropped-black-1.png" class="custom-logo" alt="" /></a>
 				<h1 class="site-title"><a href="/" rel="home"></a></h1>
 				<h2 class="site-description"></h2>
 			</div>
@@ -168,7 +171,7 @@ left: 80%;
 
 
 
-<p>Please explore the website and <a href="/ioannisaliazis@mac.com">email me</a> with any questions.</p>
+<p>Please explore the website and <a href="ioannisaliazis@mac.com">email me</a> with any questions.</p>
 
 
 
@@ -195,7 +198,9 @@ left: 80%;
 		<div class="site-info container">
 			<a href="http://wordpress.org/">Proudly powered by WordPress</a>
 			<br />
-			<a href="https://wordpress.org/themes/relativity">Relativity</a> by <a href="http://magikpress.com/" rel="designer">MagikPress</a>.		</div><!-- .site-info -->
+			<span class="author-credit">
+				<a href="https://wordpress.org/themes/relativity">Relativity</a> by <a href="https://properlypurple.com/projects/wordpress-themes/relativity/" rel="designer">Prpl</a>.			</span>
+		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
