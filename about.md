@@ -1,40 +1,89 @@
 ---
-id: 11
-title: About
-date: 2019-11-23T12:56:32+00:00
-author: Ioannis Aliazis
-layout: page
-guid: http://localhost:8888/sk3pt1c.github.io/wordpress/?page_id=11
+
+layout:			default
+title:  		About this Theme
+type:			page
+navigation: 	true
+
+date:   		2014-05-08
+excerpt: 		Don't let yourself be fooled by the <b>minimal and tidy overall appearance</b> of this theme — <i>you might be surprised what's included</i>.
+gradient: 		2
+image: 			header-2.jpg
+
 ---
-<div class="wp-block-columns">
-  <div class="wp-block-column" style="flex-basis:33.33%">
-    <figure class="wp-block-image size-large"><img src="http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/IMG_2546-518x1024.jpeg" alt="" class="wp-image-38" srcset="http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/IMG_2546-518x1024.jpeg 518w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/IMG_2546-152x300.jpeg 152w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/IMG_2546-768x1517.jpeg 768w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/IMG_2546-778x1536.jpeg 778w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/IMG_2546.jpeg 892w" sizes="(max-width: 518px) 100vw, 518px" /></figure>
-  </div>
-  
-  <div class="wp-block-column" style="flex-basis:66.66%">
-    <p class="has-text-color has-primary-color">
-      My formal studies are in Computer Science and Web Development but I have over the past few years made the move to a more quiet location with good access to water to pursue my freediving. Hence I am now living on the island of Zakynthos (<a href="https://www.flightnetwork.com/worlds-best-beaches/top-50-worlds-best-beaches/shipwreck-beach-gre/">best beach in the world 2018</a>, woop woop!) and enjoying the awesome diving and peaceful island life. I am a freediving instructor with Apnea Academy, a KAD (Kids As Dolphins) instructor, have a first aid certificate as a First Responder and am a pool lifeguard.
-    </p>
-  </div>
-</div><figure class="wp-block-image size-large">
 
-<img src="http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-instructor.jpg" alt="" class="wp-image-40" srcset="http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-instructor.jpg 1000w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-instructor-300x150.jpg 300w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-instructor-768x384.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /> </figure> 
+## Minimal & Responsive Design
 
-Being an inquisitive person and chasing after my better self, I have over time taken a number of online courses through services like Coursera.
+Based upon a solid grid and designed with **simplicity and focus on typography** in mind, the entire design follows a clean and minimal design philosphy which is easy on the eyes and doesn't distract from the most important feature of every website: *the content*.
 
-Here are links to some of them for the curious:
+*Clear shapes, sharp edges and flat shades* create a contemporary and pleasant overall appearance.
 
-  * [Introduction to Philosophy](https://www.coursera.org/learn/philosophy)
-  * [Understanding Memory](https://www.coursera.org/learn/memory-and-movies/home/welcome)
-  * [Positive Psychology](https://www.coursera.org/learn/positive-psychology/home/welcome)
-  * [A Life of Happiness and Fulfillment](https://www.coursera.org/learn/happiness/home/welcome)
+A responsive design concept applied to every aspect of the theme ensures that it adapts seamlessly to a wide variety of devices and screen resolutions.
 
-Exploring freediving while doing these courses made me realise what freediving in particular can give us, more specifically the sense of flow.<figure class="wp-block-image size-large">
+### Subtile Animations
 
-<img src="http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-flowing.jpg" alt="" class="wp-image-41" srcset="http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-flowing.jpg 1000w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-flowing-300x150.jpg 300w, http://localhost:8888/sk3pt1c.github.io/wordpress/wp-content/uploads/2019/11/about-flowing-768x384.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /> </figure> 
+Smooth and particularly *barely noticable animations reveal contents in a beautiful way* while scrolling down the page. A feature which is not necessarily required for obvious reasons, but it surely improves the experience a little further.
 
-Flow is a term in positive psychology coined by the person with the most difficult last name in the world, Mihály Csíkszentmihályi (more on flow&nbsp;[here](https://en.wikipedia.org/wiki/Flow_(psychology))). Here my interpretation of it, in short: it is a state of being where you are completely focused on the task at hand, so much that everything else fades away, your mind is so concentrated on one specific task that the rest of existence just doesn’t matter any more. For this to happen the task has to be difficult enough to pose enough of a challenge to put you “in the zone” so to speak.
+### Retina Ready
 
-Thus, freediving to me is a way to achieve flow, to immerse yourself in what you do and leave the world behind. Of course, it all starts with the breath. Controlling your breath and relaxing adequately is key to achieving flow in many activities. Like water being poured into a cup becomes the cup (thank you, oh wise&nbsp;[Bruce Lee](https://www.youtube.com/watch?v=Ze_hfMw8JFg)), so does the breath flow and make each activity better.
+In order to make sure *everything looks crisp on high resolution displays* as well, all images used by the theme itself are **scalable vector graphics (SVG)**.
 
-So, follow your breath, my friend, flow…
+They may be small in terms of file sizes but can be scaled indefinitely so your website will be able to take advantage of the beauty of those retina displays entirely.
+
+{% include media-image.html file="feature-retina.jpg" title="SVG's in Sketch 3" caption="Scalable vector graphics created in Sketch 3 look sharp and crisp on any device and the layered Sketch source file is included too" %}
+
+### Decent Parallax Scrolling
+
+Almost invisible at first sight, parallax scrolling applied to big image headers makes them move at a different speed and thus creates an **impression of depth** — tiny details essential for a truly polished look and feel.
+
+### Estimated Reading Duration
+
+It's nice to know how long it will take to read a post upfront. Because of that, there's an indicator on top of every post which provides an estimate.
+
+{% include media-image.html file="feature-estimate-duration.jpg" title="Duration" caption="Estimates are based upon the posts length and calculated automatically" %}
+
+### Clean, Valid HTML5 & CSS3
+
+Clean, optimized, validated & handwritten source code can be taken for granted. **Quality code is just as important as good design** and there's no room for compromises.
+
+In addition to that, the entire theme has been carefully tested to achieve best possible **crossbrowser compatibility** and meet highest requirements and so it works just fine in Internet Explorer 9+, Firefox 4+, Safari 5+, Chrome 14+, Opera 10.6+ as well as on iOS 4+ and Android devices.
+
+### Author Bio & Social Sharing
+
+Optionally add an author bio, social media profile links or dynamically generated sharing buttons to each page via front-matters or leave them out entirely — *it's really up to you*.
+
+{% include media-image.html file="feature-author-share.jpg" title="Author & Sharing" caption="Adding additional information to each post is remarkably easy" %}
+
+### Media Shortcodes
+
+Adding images, videos from [YouTube](http://youtube.com) / [Vimeo](http://vimeo.com) or music from [Soundcloud](http://soundcloud.com) is remarkably simple with **shortcodes you can use literally anywhere**. Even better, they also support custom captions and adapt to smaller resolutions seamlessly.
+
+{% include media-image.html file="feature-media-shortcodes.jpg" title="Shortcodes" caption="Add the shortcode and url, optionally a few details and you're good to go" %}
+
+### Disqus Comments
+
+A third-party **comment system powered by Disqus** comes with the theme — just add your username to the config file and you're ready to let the comments roll in.
+
+{% include media-image.html file="feature-comments.jpg" title="Comments" caption="Comments are powered by Disqus — just sign up, add your username to the _config file" link="http://disqus.com" %}
+
+### Syntax Highlighting
+
+Embedding pieces of code every now and then is essential. Fortunately *Hashtag for Jekyll* supports syntax highlighting by default.
+
+{% highlight ruby %}
+
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+
+{% endhighlight %}
+
+### Much More
+
+Those features above are just the tip of the iceberg and there's much more included. 
+
+Things like support for **Google Analytics & Web Fonts**, advanced **pagination** on overview pages, a custom **teaser of the next article** at the bottom of each post, **Twitter Cards & Facebook Open Graph** tags dynamically generated, multiple page types, etc.
+
+**Hope you like it!**
