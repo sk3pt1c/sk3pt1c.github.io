@@ -1,28 +1,41 @@
----
+<!doctype html>
+<html class="no-js" lang="">
 
-layout:     default
-title:      Why Jekyll rocks
-type:       home
-navigation: true
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-date:       2014-05-08
-image:      header-1.jpg
-excerpt:    Let's face it, there are literally <i>millions of ways to create and manage a website or blog</i> these days and all of them got dark and bright sides. <b>Jekyll</b> is yet another, albeit incredible way to do so and <b>Hashtag for Jekyll</b> adds a sweet little face to it so your site doesn't turn into <b>Mr. Hyde</b>. <a href="/about.html" title="Continue" class="more">Continue</a>
-gradient:   1
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
----
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
-<div class="summary">
+  <meta name="theme-color" content="#fafafa">
+</head>
 
-  <p>Well, I guess it's quite obvious that I really enjoy working with Jekyll — <b>with good reasons</b> — so let me just briefly suggest some of the benefits of using a static site generator in favor of a heavy dynamic, database driven content management system. <a href="/why-jekyll.html" title="Continue" class="more">Continue</a></p>
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
 
-</div>
+  <!-- Add your site or application content here -->
+  <p style="text-align: center;">New website coming soon!</p>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-<h2>Guides</h2>
-<p>Please follow these guides in order to get a good impression about the themes functionality and how it works.</p>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
 
-{% for post in paginator.posts %}
-
-  {% include summary.html %}
-  
-{% endfor %}
+</html>
