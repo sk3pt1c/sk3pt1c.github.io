@@ -206,6 +206,13 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
+	img {
+		@media screen and (max-width: $screen-sm ) {
+			width:270px;
+
+
+		}
+	}
 	a {
 		padding: 5px 10px;
 		color: $brand-black;
@@ -483,9 +490,9 @@ h1, h2, h3, h4, h5, h6, figure {
 			z-index: 9;
 			> .slider-text-inner {
 				display: table-cell;
-				vertical-align: middle;
+				vertical-align: top;
 				min-height: 700px;
-				padding: 2em;
+				padding: 4em;
 				@media screen and (max-width: $screen-sm ) {
 					text-align: center;
 				}
