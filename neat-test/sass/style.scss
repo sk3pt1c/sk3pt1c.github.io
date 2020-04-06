@@ -629,7 +629,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		opacity: 0;
 		@include transition(.3s);
 		h3{
-			font-size: 14px;
+			font-size: 16px;
 			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 			transition: transform 0.3s, opacity 0.3s;
 			-webkit-transform: translate3d(0, -15px, 0);
@@ -638,7 +638,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		span{
 			display: block;
 			color: lighten($brand-black,60%);
-			font-size: 12px;
+			font-size: 14px;
 			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 			transition: transform 0.3s, opacity 0.3s;
 			-webkit-transform: translate3d(0, 15px, 0);
@@ -648,10 +648,17 @@ h1, h2, h3, h4, h5, h6, figure {
 			opacity: 1;
 			background: transparent !important;
 			h3{
+				color:$brand-darker;
+				padding: 10px 10px;
+				margin-bottom: 0px;
+				background-color: rgba($brand-lighter,.7);
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
 			}
 			span{
+				color:$brand-darker;
+				background-color: rgba($brand-lighter,.7);
+				padding: 10px 10px;
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
 			}

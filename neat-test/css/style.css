@@ -424,13 +424,13 @@ h1, h2, h3, h4, h5, h6, figure {
     opacity: 0;
     transition: 0.3s; }
     .work .desc h3 {
-      font-size: 14px;
+      font-size: 16px;
       transition: transform 0.3s, opacity 0.3s;
       transform: translate3d(0, -15px, 0); }
     .work .desc span {
       display: block;
       color: #999999;
-      font-size: 12px;
+      font-size: 14px;
       transition: transform 0.3s, opacity 0.3s;
       transform: translate3d(0, 15px, 0); }
     @media screen and (max-width: 768px) {
@@ -438,8 +438,15 @@ h1, h2, h3, h4, h5, h6, figure {
         opacity: 1;
         background: transparent !important; }
         .work .desc h3 {
+          color: #444;
+          padding: 10px 10px;
+          margin-bottom: 0px;
+          background-color: rgba(233, 233, 233, 0.7);
           transform: translate3d(0, 0, 0); }
         .work .desc span {
+          color: #444;
+          background-color: rgba(233, 233, 233, 0.7);
+          padding: 10px 10px;
           transform: translate3d(0, 0, 0); } }
   .work:hover .desc {
     opacity: 1; }
