@@ -482,6 +482,8 @@ h1, h2, h3, h4, h5, h6, figure {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
     color: gray; }
+  .fh5co-counters .col-md-6 img {
+    margin-bottom: 50px; }
 
 .fh5co-blog {
   width: 100%;
