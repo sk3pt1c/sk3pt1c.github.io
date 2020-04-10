@@ -1082,7 +1082,7 @@ input[type="text"] {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	padding: 75px 40px 40px 40px;
+	padding: 115px 40px 40px 40px;
 	overflow-y: auto;
 	display: none;
 	@include translateX(270px);
@@ -1095,6 +1095,7 @@ input[type="text"] {
 	}
 	a {
 		color: rgba(255,255,255,.5);
+		font-size: 30px;
 		&:hover {
 			color: rgba(255,255,255,.8);
 		}
@@ -1120,7 +1121,7 @@ input[type="text"] {
 						@include icomoon;
 						content: "\e0c5";
 						font-size: 20px;
-						color: rgba(255,255,255,.2);
+						color: rgba(255, 255, 255, 0.2);
 						@include transition(.5s);
 					}
 				}

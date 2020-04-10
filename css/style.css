@@ -785,7 +785,7 @@ input[type="text"] {
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 75px 40px 40px 40px;
+  padding: 115px 40px 40px 40px;
   overflow-y: auto;
   display: none;
   transform: translateX(270px);
@@ -796,7 +796,8 @@ input[type="text"] {
   .offcanvas #fh5co-offcanvas {
     transform: translateX(0px); }
   #fh5co-offcanvas a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px; }
     #fh5co-offcanvas a:hover {
       color: rgba(255, 255, 255, 0.8); }
   #fh5co-offcanvas ul {
