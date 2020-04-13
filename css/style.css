@@ -402,6 +402,11 @@ h1, h2, h3, h4, h5, h6, figure {
       font-size: 40px;
       line-height: 40px;
       color: #000; }
+  .services .agency-comparison {
+    background-color: #3d9ffa;
+    color: white; }
+    .services .agency-comparison li {
+      list-style-type: none; }
 
 .work {
   background-size: cover;
