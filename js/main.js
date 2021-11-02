@@ -256,3 +256,8 @@
 
 
 }());
+
+//current year for footer
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("current-year").innerHTML = year;
