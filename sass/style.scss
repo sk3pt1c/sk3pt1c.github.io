@@ -615,8 +615,32 @@ h1, h2, h3, h4, h5, h6, figure {
 			list-style-type: none;
 		}
 	}
-	
 }
+legend.services-legend {
+	font-size: 14px;
+}
+
+//Changing the order of columns on mobile devices so that
+// the title of the service etc show first
+@media screen and (max-width: $screen-md){
+	#fh5co-work .services-row {
+		display: flex;
+		display: -webkit-flex;
+		flex-wrap: wrap;
+	}
+	#fh5co-work .services-row .col-md-4 {
+		order:1;
+		-webkit-order:1;
+		flex:0 1 100%;
+		margin-bottom: 50px;
+	}
+	#fh5co-work .services-row .col-md-8 {
+		order: 2;
+		-webkit-order:2;
+		flex:1 1 100%;
+	}
+}
+//endof
 
 // WORK
 .work{

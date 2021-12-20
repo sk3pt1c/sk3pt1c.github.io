@@ -408,6 +408,24 @@ h1, h2, h3, h4, h5, h6, figure {
     .services .agency-comparison li {
       list-style-type: none; }
 
+legend.services-legend {
+  font-size: 14px; }
+
+@media screen and (max-width: 992px) {
+  #fh5co-work .services-row {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap; }
+  #fh5co-work .services-row .col-md-4 {
+    order: 1;
+    -webkit-order: 1;
+    flex: 0 1 100%;
+    margin-bottom: 50px; }
+  #fh5co-work .services-row .col-md-8 {
+    order: 2;
+    -webkit-order: 2;
+    flex: 1 1 100%; } }
+
 .work {
   background-size: cover;
   background-position: center center;
