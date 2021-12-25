@@ -426,6 +426,18 @@ legend.services-legend {
     -webkit-order: 2;
     flex: 1 1 100%; } }
 
+.fh5co-project-detail .fh5co-project-service.call-to-action ul li {
+  margin-bottom: 10px; }
+
+.fh5co-project-detail .fh5co-project-service.call-to-action h3 {
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 160px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 20px; }
+
 .work {
   background-size: cover;
   background-position: center center;
