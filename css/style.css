@@ -424,7 +424,8 @@ legend.services-legend {
   #fh5co-work .services-row .col-md-8 {
     order: 2;
     -webkit-order: 2;
-    flex: 1 1 100%; } }
+    flex: 1 1 100%;
+    max-width: 100%; } }
 
 .fh5co-project-detail .fh5co-project-service.call-to-action ul li {
   margin-bottom: 10px; }
