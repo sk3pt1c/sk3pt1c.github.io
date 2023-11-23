@@ -129,6 +129,14 @@
       "oAP" : "\/blog\/the-importance-of-routine-and-breaking-it.html",
       "oF" : 0
     },
+    "\/blog\/the-physiology-of-drowning.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/the-physiology-of-drowning.html",
+      "oF" : 0
+    },
     "\/blog\/the-profundity-of-meaning.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -430,6 +438,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/blog-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/blog-drowning-large.jpg" : {
+      "ft" : 16384,
+      "iS" : 123138,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/blog-drowning-large.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/blog-drowning-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 92061,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/blog-drowning-thumb.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1643,6 +1677,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/papers\/dci.pdf",
+      "oF" : 0
+    },
+    "\/papers\/drowning-physiology.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/papers\/drowning-physiology.pdf",
       "oF" : 0
     },
     "\/papers\/nof-sif.pdf" : {
