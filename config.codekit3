@@ -2717,6 +2717,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/spearfishing-course.jpg" : {
+      "ft" : 16384,
+      "iS" : 475274,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/spearfishing-course.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/special-events-slide1.jpg" : {
       "ft" : 16384,
       "iS" : 615219,
@@ -4671,6 +4684,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/services\/specials\/freediving-week.html",
+      "oF" : 0
+    },
+    "\/services\/specials\/spearfishing-course.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/services\/specials\/spearfishing-course.html",
       "oF" : 0
     },
     "\/services\/training-week.html" : {
