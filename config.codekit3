@@ -4686,6 +4686,14 @@
       "oAP" : "\/services\/specials\/freediving-week.html",
       "oF" : 0
     },
+    "\/services\/specials\/freediving-yoga-week.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/services\/specials\/freediving-yoga-week.html",
+      "oF" : 0
+    },
     "\/services\/specials\/spearfishing-course.html" : {
       "cB" : 0,
       "ft" : 8192,
