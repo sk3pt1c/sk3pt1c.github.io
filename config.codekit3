@@ -1199,6 +1199,97 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/freediving-yoga-course1.jpg" : {
+      "ft" : 16384,
+      "iS" : 340894,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/freediving-yoga-course2.jpg" : {
+      "ft" : 16384,
+      "iS" : 422314,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/freediving-yoga-course3.jpg" : {
+      "ft" : 16384,
+      "iS" : 230090,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/freediving-yoga-course4.jpg" : {
+      "ft" : 16384,
+      "iS" : 521271,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/freediving-yoga-course5.jpg" : {
+      "ft" : 16384,
+      "iS" : 194832,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/freediving-yoga-course6.jpg" : {
+      "ft" : 16384,
+      "iS" : 341138,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/freediving-yoga-course7.jpg" : {
+      "ft" : 16384,
+      "iS" : 454376,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/freediving-yoga-course7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/home-blog-bullet.jpg" : {
       "ft" : 16384,
       "iS" : 8550,
@@ -4686,12 +4777,12 @@
       "oAP" : "\/services\/specials\/freediving-week.html",
       "oF" : 0
     },
-    "\/services\/specials\/freediving-yoga-week.html" : {
+    "\/services\/specials\/freediving-yoga-retreat.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/services\/specials\/freediving-yoga-week.html",
+      "oAP" : "\/services\/specials\/freediving-yoga-retreat.html",
       "oF" : 0
     },
     "\/services\/specials\/spearfishing-course.html" : {
