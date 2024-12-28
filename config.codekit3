@@ -4678,6 +4678,14 @@
       "oAP" : "\/services\/emergency-paediatric-first-aid.html",
       "oF" : 0
     },
+    "\/services\/equalization.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/services\/equalization.html",
+      "oF" : 0
+    },
     "\/services\/first-aid.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4764,14 +4772,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/services\/paediatric-first-aid.html",
-      "oF" : 0
-    },
-    "\/services\/snorkeling.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/services\/snorkeling.html",
       "oF" : 0
     },
     "\/services\/special-events.html" : {
