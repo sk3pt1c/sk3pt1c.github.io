@@ -104,7 +104,7 @@ nav:
       - Ocean Warming Issues Brief Final: ocean_warming_issues_brief_final.md
       - Strategy-Analysis-Of-Breathhold-Comp-Dives-Speed-At-Right-Time-Avoids-Bo: strategy-analysis-of-breathhold-comp-dives-speed-at-right-time-avoids-bo.md
       - Test-Paper: test-paper.md
-  - About: about.md
+  - About This Page: about.md
   - Tags: tags.md
 markdown_extensions:
   - meta
