@@ -375,7 +375,14 @@ h1, h2, h3, h4, h5, h6, figure {
     #fh5co-blog,
     #fh5co-counter,
     #fh5co-footer {
-      padding: 3em 1em; } }
+      padding: 3em 1em; 
+    }
+    #fh5co-services .row img {
+      width: 19%;
+      height: auto;
+      padding-left:10px;
+    } 
+  }
 
 .services {
   position: relative;
