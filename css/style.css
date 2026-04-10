@@ -1166,3 +1166,12 @@ input[type="text"] {
   list-style: none;
   color: rgba(0, 0, 0, 0.3);
   font-weight: 400; }
+
+  /*menu width override*/
+  .top-menu .row .col-xs-5 {
+    width:34%;
+  }
+  .top-menu .row .col-xs-7 {
+    width:66%;
+    padding-right: 0;
+  }
